@@ -33,9 +33,10 @@ export const projects = [
     },
     {
         id:2,
-        title: "Expense Finance Tracker-Web App",
-        description: "Created a responsive web application using React.js and Tailwind CSS to help users track their expenses, set budgets, and visualize their financial data through interactive charts and graphs.",
-        technologies: ["React.js","Tailwind CSS", "JavaScript","postman","MongoDB"],
+        title: "Shopping Cart Web Application",
+        description: "Developed a responsive and interactive Shopping Cart Web Application using React.js and Tailwind CSS to simulate a modern e-commerce experience. The application allows users to browse products, add or remove items from the cart, update quantities dynamically, and view real-time pricing updates.",
+        technologies: ["React.js","Tailwind CSS", "JavaScript"],
+        link: "https://shopping-cart-murex-theta.vercel.app/",
         category:"Web Development",
         featured: true
     }

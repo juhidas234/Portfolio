@@ -61,15 +61,19 @@ const Projects = () => {
                       </Badge>
                     ))}
                   </div>
-
-                  <Button
-                    variant='ghost'
-                    size='sm'
-                    className='text-cyan-300 border-cyan-500 hover:bg-cyan-500/10 hover:border-cyan-400 transition-all duration-300'
-                  >
-                    View Details
-                    <ExternalLink className='ml-2' size={16} />
-                  </Button>
+ <Button
+  asChild
+  className="bg-cyan-500 hover:bg-cyan-600 text-white transition-all duration-300"
+>
+  <a
+    href={selectedProject?.link || "#"}
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    Visit Project
+    <ExternalLink className="ml-2" size={18} />
+  </a>
+</Button>
                 </CardContent>
               </Card>
             ))}
