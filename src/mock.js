@@ -36,6 +36,7 @@ export const projects = [
         id:2,
         title: "Multi-Platform Marketing & ROI Analytics Dashboard",
         description: "This project analyzes digital advertising campaign performance across multiple platforms, industries, and countries using SQL, Excel, DAX, and Power BI.The dashboard helps businesses monitor marketing KPIs, identify profitable campaigns, optimize advertising budgets, and improve overall Return on Ad Spend (ROAS).",
+        link: "Ads.pbix",
         category:"Data Analytics",
         featured: true
     },
