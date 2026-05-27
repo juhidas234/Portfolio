@@ -58,7 +58,7 @@ const Home = () => {
                             rel="noopener noreferrer"
                             className='text-slate-400 hover:text-cyan-400 transition-all duration-300 hover:scale-110'
                             aria-label="LinkedIn">
-                                <linkedIn size={28} />
+                                <Linkedin size={28} />
                             </a>
 
                             <a href={personalInfo.geeksforgeeks}

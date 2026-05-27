@@ -52,7 +52,7 @@ const Projects = () => {
 
                 <CardContent>
                   <div className='flex flex-wrap gap-2 mb-4'>
-                    {project.technologies.map((tech, idx) => (
+                    {project.technologies?.map((tech, idx) => (
                       <Badge
                         key={idx}
                         className='bg-slate-700 text-slate-200 hover:bg-cyan-500/50 hover:text-cyan-400 transition-all duration-300 px-3 py-1'
@@ -66,7 +66,7 @@ const Projects = () => {
   className="bg-cyan-500 hover:bg-cyan-600 text-white transition-all duration-300"
 >
   <a
-    href={selectedProject?.link || "#"}
+    href={project?.link || "#"}
     target="_blank"
     rel="noopener noreferrer"
   >

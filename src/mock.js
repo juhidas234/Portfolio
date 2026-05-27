@@ -14,9 +14,10 @@ export const personalInfo = {
 };
 
 export const skills ={
-    "Data Analytics": [ "SQL", "Micorsoft Excel", "Power BI" , "Data Cleaning & Visualization"],
-    "Frameworks & Libraries": ["React.js", "Tailwind CSS"],
-    "Tools & Platforms": ["Git", "GitHub", "VS Code", "Vercel"],
+    "Data Analytics": [ "SQL", "Power BI", "Microsoft Excel", "Data Visualization", "KPI Reporting", "Dashboard Development", "Business Intelligence", "Reporting Automation", "Data Modeling", "Data Cleaning"],
+    "Programming Languages & Framworks": ["Java","SQL", "JavaScript","React.js", "Tailwind CSS"],
+    "Analytics & Reporting": ["Trend Analysis", "Business Reporting", "Ad-hoc Analysis", "Stakeholder Reporting", "Data-driven Decision Making", "Performance Metrics", "Interactive Dashboards"],
+    "Tools & Platforms": ["Git", "GitHub", "VS Code", "Vercel", "Power BI Service", "SQL Server Management Studio", "Excel"],
 
 
 };
@@ -24,7 +25,7 @@ export const skills ={
 export const projects = [
     {
         id:1,
-        title: "Sales Dashboard-Power BI Data Analytics Project",
+        title: "End-to-End Sales Performance & Customer Insights Analytics Dashboard",
         description: "Developed an interactive sales dashboard using Power BI to analyze and visualize sales data, enabling stakeholders to make informed decisions based on key performance indicators and trends.",
         technologies: ["Power BI", "Data Visualization", "SQL"],
         link: "https://github.com/juhidas234/Pizza-Sales-Dashboard",
@@ -33,13 +34,29 @@ export const projects = [
     },
     {
         id:2,
+        title: "Multi-Platform Marketing & ROI Analytics Dashboard",
+        description: "This project analyzes digital advertising campaign performance across multiple platforms, industries, and countries using SQL, Excel, DAX, and Power BI.The dashboard helps businesses monitor marketing KPIs, identify profitable campaigns, optimize advertising budgets, and improve overall Return on Ad Spend (ROAS).",
+        category:"Data Analytics",
+        featured: true
+    },
+    {
+        id:3,
         title: "Shopping Cart Web Application",
         description: "Developed a responsive and interactive Shopping Cart Web Application using React.js and Tailwind CSS to simulate a modern e-commerce experience. The application allows users to browse products, add or remove items from the cart, update quantities dynamically, and view real-time pricing updates.",
         technologies: ["React.js","Tailwind CSS", "JavaScript"],
         link: "https://shopping-cart-murex-theta.vercel.app/",
         category:"Web Development",
         featured: true
-    }
+    },
+    {
+        id:4,
+        title: "Expense Finance Tracker Web Application",
+        description: "Expense Finance web application enabling users to track, categorize, and manage personal expensesBuilt and deployed a full-stack web application to manage structured financial data, enabling users to track, categorize, and analyze expenses.signed and implemented RESTful APIs, and validated end-to-end data workflows using Postman to ensure data accuracy and reliability.",
+        category:"Web Development",
+        featured: true
+    },
+    
+
 ];
 
 export const education = [
